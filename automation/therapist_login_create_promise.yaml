@@ -1,6 +1,9 @@
 appId: com.practicalidea.gobolia.dev
 ---
 - launchApp
+- assertVisible: "Who is this device for?"
+- tapOn: "Supervisor"
+- tapOn: "Continue"
 - tapOn: "Sign up or login as therapist"
 - assertVisible: "Enter your phone number"
 - tapOn: "Phone number"

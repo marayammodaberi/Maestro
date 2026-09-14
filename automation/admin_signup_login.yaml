@@ -2,7 +2,7 @@ appId: com.practicalidea.gobolia.dev
 ---
 - launchApp
 - assertVisible: "Who is this device for?"
-- tapOn: "Guardian"
+- tapOn: "Supervisor"
 - tapOn: "Continue"
 - assertVisible: "Enter your phone number"
 - tapOn: "Phone number"
