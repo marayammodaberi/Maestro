@@ -1,0 +1,11 @@
+appId: com.practicalidea.gobolia.dev
+---
+- launchApp
+- tapOn: "ادامه"
+- tapOn: "قابلیت رزرو"
+- tapOn: "رزرو نوبت"
+- tapOn: "انتخاب تاریخ"
+- tapOn: "روز بعد"
+- tapOn: "ساعت مناسب"
+- tapOn: "ثبت نوبت"
+- assertVisible: "نوبت با موفقیت ثبت شد"

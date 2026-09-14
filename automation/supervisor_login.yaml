@@ -2,7 +2,7 @@
 # اصلاح‌شده: با استفاده از کد آزمایشی OTP (112000) که برای محیط تست در دسترس است،
 # ورود برای هر سه نقش تا نمایش صحیح صفحه‌ی اصلی هر نقش کامل بررسی می‌شود.
 
-appId: com.practicalidea.app   # جایگزین با package name واقعی
+appId: com.practicalidea.gobolia.dev
 ---
 - launchApp
 - assertVisible: "این دستگاه برای چه کسی است؟"
@@ -35,6 +35,7 @@ appId: com.practicalidea.app   # جایگزین با package name واقعی
 
 # تست نقش تراپیست (از لینک پایین صفحه)
 - launchApp
+- tapOn: "ثبت‌نام یا ورود به عنوان تراپیست"
 - tapOn: "ثبت‌نام یا ورود به عنوان تراپیست"
 - assertVisible: "شماره تلفن خودتون رو وارد کنید."
 - tapOn: "شماره موبایل"

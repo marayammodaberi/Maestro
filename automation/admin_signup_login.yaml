@@ -1,0 +1,13 @@
+appId: com.practicalidea.gobolia.dev
+---
+- launchApp
+- assertVisible: "این دستگاه برای چه کسی است؟"
+- tapOn: "سرپرست"
+- tapOn: "ادامه"
+- assertVisible: "شماره تلفن خودتون رو وارد کنید."
+- tapOn: "شماره موبایل"
+- inputText: "09304216502"
+- tapOn: "تایید و دریافت کد"
+- assertVisible: "لطفاً کدی که براتون ارسال شده رو وارد کنید."
+- inputText: "112000"
+- assertNotVisible: "لطفاً کدی که براتون ارسال شده رو وارد کنید."
