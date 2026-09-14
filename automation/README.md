@@ -47,12 +47,16 @@ maestro test -e ANDROID_SERIAL=R8YW70J7TMV admin_signup_login.yaml
 
 # Booking flow
 maestro test -e ANDROID_SERIAL=R8YW70J7TMV booking_flow.yaml
+
+# Therapist login and promise creation
+maestro test -e ANDROID_SERIAL=R8YW70J7TMV therapist_login_create_promise.yaml
 ```
 
 ## Files
 
 - `admin_signup_login.yaml`
 - `booking_flow.yaml`
+- `therapist_login_create_promise.yaml`
 
 ## Notes
 

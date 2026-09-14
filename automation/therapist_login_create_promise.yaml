@@ -1,9 +1,7 @@
 appId: com.practicalidea.gobolia.dev
 ---
 - launchApp
-- assertVisible: "Who is this device for?"
-- tapOn: "Guardian"
-- tapOn: "Continue"
+- tapOn: "Sign up or login as therapist"
 - assertVisible: "Enter your phone number"
 - tapOn: "Phone number"
 - inputText: "09304216502"
@@ -11,3 +9,8 @@ appId: com.practicalidea.gobolia.dev
 - assertVisible: "Enter the code we sent you"
 - inputText: "112000"
 - assertNotVisible: "Enter the code we sent you"
+- tapOn: "Create promise"
+- tapOn: "Title"
+- inputText: "Therapist promise test"
+- tapOn: "Save"
+- assertVisible: "Therapist promise test"
